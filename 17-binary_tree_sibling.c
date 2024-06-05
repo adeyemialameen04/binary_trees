@@ -5,6 +5,7 @@
 /**
 * binary_tree_sibling - Finds the sibling of a node.
 * @node: A ptr to the node to check.
+* Return: a ptr to the sibling if found, NULL otherwise.
 */
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 {
