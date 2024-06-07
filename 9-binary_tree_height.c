@@ -3,18 +3,6 @@
 #include "binary_trees.h"
 
 /**
- * max - Finds the max of two nums.
- * @a: 1st number
- * @b: 2nd number
- * Return: The max.
- */
-size_t max(size_t a, size_t b)
-{
-return ((a > b) ? a : b);
-}
-
-
-/**
   * binary_tree_height - Finds the height of a bt.
 * @tree: The tree.
 * Return: size_t.
